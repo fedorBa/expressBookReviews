@@ -1,2 +1,5 @@
+curl -X DELETE "http://localhost:5000/auth/review/1234567890" \
+     -H "Content-Type: application/json" \
+     -b cookies.txt
 
 Review for ISBN 1 posted by user testuser has been deleted.
