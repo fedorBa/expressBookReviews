@@ -1,0 +1,7 @@
+curl http://localhost:5000/isbn/9 > getbooksbyISBN.txt
+
+{
+    "author": "Honoré de Balzac",
+    "title": "Le Père Goriot",
+    "reviews": {}
+}
